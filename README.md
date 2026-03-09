@@ -22,18 +22,26 @@ reduces dependencies, which is practical for a mini-lab scope.
 
 ## Responsible AI Use — Reflection
 
-This project uses a Retrieval-Augmented Generation (RAG) approach, which grounds the
-model's responses in user-provided documents rather than relying solely on pre-trained
-knowledge. This design choice reduces hallucinations and makes the system more
-transparent — users can trace answers back to their source material. However, responsible
-use still requires caution. The embedding model may not capture nuance equally across
-all topics, introducing subtle retrieval bias. The generation model can still
-misinterpret context or produce plausible-sounding but inaccurate summaries. Users
-should treat AI-generated answers as a starting point, not a definitive source. Privacy
-is also a concern: documents uploaded to the API are sent to Google's servers, so
-sensitive or personal data should be handled carefully. Developers have a responsibility
-to disclose when AI is involved and to evaluate outputs for fairness and accuracy.
+Building Solutions with AI
+AI is a key tool to solve problems. We must consider AI to offer strong solutions, but we must act with care.
 
+How This Project Works
+This project uses Retrieval-Augmented Generation (RAG). RAG links AI answers to your documents. It does not use general training data. This method provides two benefits:
+
+Stops false facts: The AI bases its text on your words.
+
+Adds trust: Users can check the source for every answer.
+
+Risks and Duties
+We must stay alert. The system has limits:
+
+Reading errors: The AI might miss the point and write a bad summary.
+
+Data privacy: The API sends files to Google servers. You must protect private data.
+
+Creator rules: Builders must state when they use AI. They must check the work for truth.
+
+Treat AI answers as a first step, not the final word.
 ## Setup & Usage
 
 ```bash
