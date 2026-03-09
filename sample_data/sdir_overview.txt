@@ -1,0 +1,70 @@
+Software Development: An Overview
+
+Software development is the process of designing, coding, testing, and maintaining
+applications and systems. It encompasses a broad range of activities from gathering
+requirements to deploying finished products.
+
+Agile Methodology
+
+Agile is an iterative approach to software development that emphasizes flexibility,
+collaboration, and customer feedback. Instead of delivering a complete product at the
+end, Agile teams work in short cycles called sprints, typically lasting two to four
+weeks. Key Agile practices include daily stand-up meetings, sprint planning, sprint
+reviews, and retrospectives. Popular Agile frameworks include Scrum and Kanban.
+
+Scrum defines specific roles such as the Product Owner, Scrum Master, and Development
+Team. The Product Owner manages the product backlog, prioritizing features based on
+business value. The Scrum Master facilitates the process and removes impediments. The
+Development Team is self-organizing and cross-functional.
+
+Version Control
+
+Version control systems like Git allow developers to track changes, collaborate on
+code, and manage different versions of a project. Git uses a distributed model where
+every developer has a full copy of the repository. Branches allow developers to work
+on features independently before merging them into the main codebase. Common Git
+workflows include feature branching, Git Flow, and trunk-based development.
+
+Open-Source Software
+
+Open-source software (OSS) is software whose source code is made publicly available.
+Anyone can inspect, modify, and distribute the code. OSS fosters innovation through
+community collaboration. Popular open-source projects include Linux, Python, and
+PostgreSQL. Licensing models such as MIT, Apache 2.0, and GPL define how code can be
+used and redistributed.
+
+Advantages of open-source development include transparency, community-driven
+improvements, reduced costs, and avoidance of vendor lock-in. Challenges include
+maintaining quality control, managing contributions from diverse developers, ensuring
+security, and sustaining long-term maintenance without guaranteed funding.
+
+Software Testing
+
+Testing ensures software behaves as expected. Common types include unit testing
+(testing individual components), integration testing (testing interactions between
+components), and end-to-end testing (testing the full application workflow). Test-
+driven development (TDD) is a practice where tests are written before the code they
+validate. Continuous integration (CI) systems automatically run tests whenever code
+is pushed to the repository.
+
+AI in Software Development
+
+Artificial intelligence is increasingly used in software development. AI-powered
+tools can assist with code completion, bug detection, automated testing, and code
+review. Large language models (LLMs) can generate code from natural language
+descriptions, summarize documentation, and answer technical questions.
+
+Retrieval-Augmented Generation (RAG) is a technique that combines information
+retrieval with text generation. Instead of relying solely on a model's training data,
+RAG systems retrieve relevant documents from a knowledge base and use them as context
+to generate more accurate and grounded responses. This approach reduces hallucinations
+and allows models to work with up-to-date or domain-specific information.
+
+Ethical Considerations
+
+Responsible AI use requires attention to bias, fairness, transparency, and privacy.
+Developers should evaluate training data for bias, document model limitations, and
+provide clear disclosures when AI is used. Data privacy laws such as GDPR and CCPA
+impose requirements on how personal data is collected, processed, and stored.
+Organizations should establish AI governance frameworks to guide ethical development
+and deployment practices.
